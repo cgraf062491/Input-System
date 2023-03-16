@@ -1,0 +1,34 @@
+{
+    "name": "SphereInput",
+    "maps": [
+        {
+            "name": "Sphere",
+            "id": "472db28b-9d98-455f-a6d5-4ff842c47f34",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "f2b0e27e-4004-476f-9b0f-7415895aa55a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5d5334e2-5bb8-4d95-a3a8-40d556bb4ca1",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Hold(duration=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,34 @@
+{
+    "name": "ProgressBarInput",
+    "maps": [
+        {
+            "name": "ProgressBar",
+            "id": "ef5a79a1-d7d5-48b8-8b07-4c6441003e14",
+            "actions": [
+                {
+                    "name": "Charge",
+                    "type": "Button",
+                    "id": "ac771b35-e1d5-4bdd-9fac-64d23ec86973",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0b9c2e50-47fb-4568-8347-107bed1de9c5",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Charge",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
